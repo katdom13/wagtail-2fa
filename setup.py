@@ -4,7 +4,7 @@ from setuptools import find_packages, setup
 
 install_requires = [
     "Django>=3.2",
-    "Wagtail>=2.15",
+    "Wagtail>=4.1",
     "django-otp>=0.8.1",
     "six>=1.14.0",
     "qrcode>=6.1",
@@ -59,12 +59,16 @@ setup(
         "Framework :: Django",
         "Framework :: Django :: 3.2",
         "Framework :: Django :: 4.0",
+        "Framework :: Django :: 4.1",
+        "Framework :: Wagtail",
+        "Framework :: Wagtail :: 4",
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
     ],
     zip_safe=False,
 )
